@@ -1,0 +1,48 @@
+﻿<Window x:Class="WebviewShortcut.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WebviewShortcut"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800"
+        WindowStartupLocation="CenterScreen">
+    <Grid Margin="5">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <GroupBox Grid.Column="0" Header="Baemin" Margin="5">
+            <StackPanel Orientation="Vertical">
+                <Button Margin="8" Background="White" Height="30" Click="Go_Webview">Store management</Button>
+                <Button Margin="8" Background="White" Height="30" Click="Go_Webview">Temperarily suspended</Button>
+                <Button Margin="8" Background="White" Height="30">Menu discount management</Button>
+                <Button Margin="8" Background="White" Height="30">Review management</Button>
+                <Button Margin="8" Background="White" Height="30">Notice</Button>
+                <Button Margin="8" Background="White" Height="30">Order details</Button>
+            </StackPanel>
+        </GroupBox>
+        <GroupBox Grid.Column="1" Header="Yogiyo" Margin="5">
+            <StackPanel Orientation="Vertical">
+                <Button Margin="8" Background="White" Height="30">Order history</Button>
+                <Button Margin="8" Background="White" Height="30">Business hours</Button>
+                <Button Margin="8" Background="White" Height="30">Menu management</Button>
+                <Button Margin="8" Background="White" Height="30">Menu sold out</Button>
+                <Button Margin="8" Background="White" Height="30">Delivery charge/delivery</Button>
+            </StackPanel>
+        </GroupBox>
+        <GroupBox Grid.Column="2" Header="Coupangeats" Margin="5">
+            <StackPanel Orientation="Vertical">
+                <Button Margin="8" Background="White" Height="30">Sales management</Button>
+                <Button Margin="8" Background="White" Height="30">Adjustment management</Button>
+                <Button Margin="8" Background="White" Height="30">Ad management</Button>
+                <Button Margin="8" Background="White" Height="30">Coupon management</Button>
+                <Button Margin="8" Background="White" Height="30">Business hours management</Button>
+                <Button Margin="8" Background="White" Height="30">Store notice management</Button>
+                <Button Margin="8" Background="White" Height="30">Menu management</Button>
+                <Button Margin="8" Background="White" Height="30">Review management</Button>
+            </StackPanel>
+        </GroupBox>
+    </Grid>
+</Window>
