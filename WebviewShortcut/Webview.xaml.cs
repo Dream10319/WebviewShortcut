@@ -29,7 +29,7 @@ namespace WebviewShortcut
             
             Dispatcher.InvokeAsync(async () =>
             {
-                await Task.Delay(2000); // Delay to ensure all elements are loaded
+                await Task.Delay(3000); // Delay to ensure all elements are loaded
                 // JavaScript to fill the form and click the login button
                 string script = "";
                 if (tag == "b1")
@@ -73,7 +73,7 @@ namespace WebviewShortcut
                     ";
                     Browser.ExecuteScriptAsync(script);
                     await Task.Delay(2000);
-                    Browser.Address = "https://self.baemin.com/shops/promotion/promotions";
+                    Browser.Address = "https://self.baemin.com/promotion/promotions";
                     Browser.Visibility = Visibility.Visible;
                     loadingImage.Visibility = Visibility.Hidden;
                 }
@@ -122,6 +122,99 @@ namespace WebviewShortcut
                     Browser.Visibility = Visibility.Visible;
                     loadingImage.Visibility = Visibility.Hidden;
                 }
+
+                if (tag == "y1")
+                {
+                    string username = "wardin86";
+                    string password = "rjtjd8440!!";
+                    script = $@"
+                        document.querySelector('input[name=""username""]').value = '{username}';
+                        document.querySelector('input[name=""password""]').value = '{password}';
+                        document.querySelector('button.sc-bczRLJ.claiZC.sc-eCYdqJ.hsiXYt').click();
+                    ";
+                    Browser.ExecuteScriptAsync(script);
+                    await Task.Delay(2000);
+                    Browser.Address = "https://ceo.yogiyo.co.kr/order-history/list";
+                    Browser.Visibility = Visibility.Visible;
+                    loadingImage.Visibility = Visibility.Hidden;
+                }
+                if (tag == "y2")
+                {
+                    string username = "wardin86";
+                    string password = "rjtjd8440!!";
+                    script = $@"
+                        document.querySelector('input[name=""username""]').value = '{username}';
+                        document.querySelector('input[name=""password""]').value = '{password}';
+                        document.querySelector('button.sc-bczRLJ.claiZC.sc-eCYdqJ.hsiXYt').click();
+                    ";
+                    Browser.ExecuteScriptAsync(script);
+                    await Task.Delay(2000);
+                    Browser.Address = "https://ceo.yogiyo.co.kr/opening-time";
+                    Browser.Visibility = Visibility.Visible;
+                    loadingImage.Visibility = Visibility.Hidden;
+                }
+                if (tag == "y3")
+                {
+                    string username = "wardin86";
+                    string password = "rjtjd8440!!";
+                    script = $@"
+                        document.querySelector('input[name=""username""]').value = '{username}';
+                        document.querySelector('input[name=""password""]').value = '{password}';
+                        document.querySelector('button.sc-bczRLJ.claiZC.sc-eCYdqJ.hsiXYt').click();
+                    ";
+                    Browser.ExecuteScriptAsync(script);
+                    await Task.Delay(2000);
+                    Browser.Address = "https://ceo.yogiyo.co.kr/menu/set";
+                    Browser.Visibility = Visibility.Visible;
+                    loadingImage.Visibility = Visibility.Hidden;
+                }
+                if (tag == "y4")
+                {
+                    string username = "wardin86";
+                    string password = "rjtjd8440!!";
+                    script = $@"
+                        document.querySelector('input[name=""username""]').value = '{username}';
+                        document.querySelector('input[name=""password""]').value = '{password}';
+                        document.querySelector('button.sc-bczRLJ.claiZC.sc-eCYdqJ.hsiXYt').click();
+                    ";
+                    Browser.ExecuteScriptAsync(script);
+                    await Task.Delay(2000);
+                    Browser.Address = "https://ceo.yogiyo.co.kr/soldout/menu";
+                    Browser.Visibility = Visibility.Visible;
+                    loadingImage.Visibility = Visibility.Hidden;
+                }
+                if (tag == "y5")
+                {
+                    string username = "wardin86";
+                    string password = "rjtjd8440!!";
+                    script = $@"
+                        document.querySelector('input[name=""username""]').value = '{username}';
+                        document.querySelector('input[name=""password""]').value = '{password}';
+                        document.querySelector('button.sc-bczRLJ.claiZC.sc-eCYdqJ.hsiXYt').click();
+                    ";
+                    Browser.ExecuteScriptAsync(script);
+                    await Task.Delay(2000);
+                    Browser.Address = "https://ceo.yogiyo.co.kr/delivery/fee/list";
+                    Browser.Visibility = Visibility.Visible;
+                    loadingImage.Visibility = Visibility.Hidden;
+                }
+
+                if (tag == "c1")
+                {
+                    string username = "01087450981";
+                    string password = "qhal1364@";
+                    script = $@"
+                        document.getElementById('loginId').value = '{username}';
+                        document.getElementById('password').value = '{password}';
+                        document.querySelector('button.btn.merchant-submit-btn').click();
+                    ";
+                    Browser.ExecuteScriptAsync(script);
+                    await Task.Delay(2000);
+                    Browser.Address = "https://store.coupangeats.com/merchant/management/orders/172292";
+                    Browser.Visibility = Visibility.Visible;
+                    loadingImage.Visibility = Visibility.Hidden;
+                }
+
             });
         }
 

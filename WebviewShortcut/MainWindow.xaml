@@ -15,33 +15,33 @@
         </Grid.ColumnDefinitions>
         <GroupBox Grid.Column="0" Header="Baemin" Margin="5">
             <StackPanel Orientation="Vertical">
-                <Button Margin="8" Background="White" Height="30" Click="Go_Webview">Store management</Button>
-                <Button Margin="8" Background="White" Height="30" Click="Go_Webview">Temperarily suspended</Button>
-                <Button Margin="8" Background="White" Height="30" Click="Go_Webview">Menu discount management</Button>
-                <Button Margin="8" Background="White" Height="30" Click="Go_Webview">Review management</Button>
-                <Button Margin="8" Background="White" Height="30" Click="Go_Webview">Notice</Button>
-                <Button Margin="8" Background="White" Height="30" Click="Go_Webview">Order details</Button>
+                <Button Margin="8" Background="White" Height="30" Click="Go_Webview" Tag="b1">Store management</Button>
+                <Button Margin="8" Background="White" Height="30" Click="Go_Webview" Tag="b2">Temperarily suspended</Button>
+                <Button Margin="8" Background="White" Height="30" Click="Go_Webview" Tag="b3">Menu discount management</Button>
+                <Button Margin="8" Background="White" Height="30" Click="Go_Webview" Tag="b4">Review management</Button>
+                <Button Margin="8" Background="White" Height="30" Click="Go_Webview" Tag="b5">Notice</Button>
+                <Button Margin="8" Background="White" Height="30" Click="Go_Webview" Tag="b6">Order details</Button>
             </StackPanel>
         </GroupBox>
         <GroupBox Grid.Column="1" Header="Yogiyo" Margin="5">
             <StackPanel Orientation="Vertical">
-                <Button Margin="8" Background="White" Height="30">Order history</Button>
-                <Button Margin="8" Background="White" Height="30">Business hours</Button>
-                <Button Margin="8" Background="White" Height="30">Menu management</Button>
-                <Button Margin="8" Background="White" Height="30">Menu sold out</Button>
-                <Button Margin="8" Background="White" Height="30">Delivery charge/delivery</Button>
+                <Button Margin="8" Background="White" Height="30" Click="Go_Webview" Tag="y1">Order history</Button>
+                <Button Margin="8" Background="White" Height="30" Click="Go_Webview" Tag="y2">Business hours</Button>
+                <Button Margin="8" Background="White" Height="30" Click="Go_Webview" Tag="y3">Menu management</Button>
+                <Button Margin="8" Background="White" Height="30" Click="Go_Webview" Tag="y4">Menu sold out</Button>
+                <Button Margin="8" Background="White" Height="30" Click="Go_Webview" Tag="y5">Delivery charge/delivery</Button>
             </StackPanel>
         </GroupBox>
         <GroupBox Grid.Column="2" Header="Coupangeats" Margin="5">
             <StackPanel Orientation="Vertical">
-                <Button Margin="8" Background="White" Height="30">Sales management</Button>
-                <Button Margin="8" Background="White" Height="30">Adjustment management</Button>
-                <Button Margin="8" Background="White" Height="30">Ad management</Button>
-                <Button Margin="8" Background="White" Height="30">Coupon management</Button>
-                <Button Margin="8" Background="White" Height="30">Business hours management</Button>
-                <Button Margin="8" Background="White" Height="30">Store notice management</Button>
-                <Button Margin="8" Background="White" Height="30">Menu management</Button>
-                <Button Margin="8" Background="White" Height="30">Review management</Button>
+                <Button Margin="8" Background="White" Height="30" Click="Go_Webview" Tag="c1">Sales management</Button>
+                <Button Margin="8" Background="White" Height="30" Click="Go_Webview" Tag="c2">Adjustment management</Button>
+                <Button Margin="8" Background="White" Height="30" Click="Go_Webview" Tag="c3">Ad management</Button>
+                <Button Margin="8" Background="White" Height="30" Click="Go_Webview" Tag="c4">Coupon management</Button>
+                <Button Margin="8" Background="White" Height="30" Click="Go_Webview" Tag="c5">Business hours management</Button>
+                <Button Margin="8" Background="White" Height="30" Click="Go_Webview" Tag="c6">Store notice management</Button>
+                <Button Margin="8" Background="White" Height="30" Click="Go_Webview" Tag="c7">Menu management</Button>
+                <Button Margin="8" Background="White" Height="30" Click="Go_Webview" Tag="c8">Review management</Button>
             </StackPanel>
         </GroupBox>
     </Grid>
