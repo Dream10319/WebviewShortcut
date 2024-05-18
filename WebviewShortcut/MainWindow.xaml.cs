@@ -17,15 +17,38 @@ namespace WebviewShortcut
         {
             Button btn = (Button)sender;
             string url = "";
+            string tag = "";
             if (btn.Content.ToString() == "Store management")
             {
                 url = "https://biz-member.baemin.com/login";
+                tag = "b1";
             }
             if (btn.Content.ToString() == "Temperarily suspended")
             {
-                url = "https://freelancer.com";
+                url = "https://biz-member.baemin.com/login";
+                tag = "b2";
             }
-            Webview webview = new Webview(url);
+            if (btn.Content.ToString() == "Menu discount management")
+            {
+                url = "https://biz-member.baemin.com/login";
+                tag = "b3";
+            }
+            if (btn.Content.ToString() == "Review management")
+            {
+                url = "https://biz-member.baemin.com/login";
+                tag = "b4";
+            }
+            if (btn.Content.ToString() == "Notice")
+            {
+                url = "https://biz-member.baemin.com/login";
+                tag = "b5";
+            }
+            if (btn.Content.ToString() == "Order details")
+            {
+                url = "https://biz-member.baemin.com/login";
+                tag = "b6";
+            }
+            Webview webview = new Webview(url, tag);
             webview.ShowDialog();
         }
     }

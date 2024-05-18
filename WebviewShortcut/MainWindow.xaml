@@ -17,10 +17,10 @@
             <StackPanel Orientation="Vertical">
                 <Button Margin="8" Background="White" Height="30" Click="Go_Webview">Store management</Button>
                 <Button Margin="8" Background="White" Height="30" Click="Go_Webview">Temperarily suspended</Button>
-                <Button Margin="8" Background="White" Height="30">Menu discount management</Button>
-                <Button Margin="8" Background="White" Height="30">Review management</Button>
-                <Button Margin="8" Background="White" Height="30">Notice</Button>
-                <Button Margin="8" Background="White" Height="30">Order details</Button>
+                <Button Margin="8" Background="White" Height="30" Click="Go_Webview">Menu discount management</Button>
+                <Button Margin="8" Background="White" Height="30" Click="Go_Webview">Review management</Button>
+                <Button Margin="8" Background="White" Height="30" Click="Go_Webview">Notice</Button>
+                <Button Margin="8" Background="White" Height="30" Click="Go_Webview">Order details</Button>
             </StackPanel>
         </GroupBox>
         <GroupBox Grid.Column="1" Header="Yogiyo" Margin="5">
